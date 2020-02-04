@@ -1,4 +1,4 @@
-CXX=g++
+CXX=x86_64-w64-mingw32-g++
 CPPFLAGS=-g -std=c++11 -fopenmp
 LIBSEARCHPATH=-L/opt/local/lib/
 
