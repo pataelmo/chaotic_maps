@@ -19,8 +19,8 @@ int main() {
   // ------------------------------------
 
   // Parameters for frame
-  int width = 1800;
-  int height = 1600;
+  int width = 26400*2;
+  int height = 26400;
   int brightness = 150;
 
   // Coordinate system
@@ -31,8 +31,8 @@ int main() {
   CoordSystem coords(xmin, xmax, ymin, ymax, width, height);
 
   // Chaotic map
-  int transient = 5000;
-  int samples = 100000;
+  int transient = 1000;
+  int samples = 20000;
   LogisticMap map(transient, samples);
   // GaussMap map(4.9, transient, samples); // x from -1 to 1, y from -1 to 1.5
   // TentMap map(transient, samples);  // x from 1 to 2, y from 0 to 1
